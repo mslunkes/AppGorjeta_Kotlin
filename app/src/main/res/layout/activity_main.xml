@@ -60,9 +60,9 @@
             android:id="@+id/tie_num_people"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:maxLength="2"
             android:hint="Digite o número de pessoas na mesa"
-            android:inputType="number" />
+            android:inputType="number"
+            android:maxLength="2" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -111,10 +111,10 @@
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/vertical_guideline"
-        android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.5"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.43" />
 
     <Button
         android:id="@+id/btn_caculator"
@@ -127,6 +127,19 @@
         app:layout_constraintEnd_toEndOf="@+id/til_number_of_people"
         app:layout_constraintStart_toStartOf="@+id/vertical_guideline"
         app:layout_constraintTop_toBottomOf="@+id/rg_percentage" />
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:maxLength="6"
+        android:layout_marginTop="32dp"
+        tools:ignore="Total with Tips"
+        app:layout_constraintEnd_toEndOf="@+id/btn_caculator"
+        app:layout_constraintStart_toStartOf="@+id/btn_clean"
+        app:layout_constraintTop_toBottomOf="@+id/btn_clean" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
