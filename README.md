@@ -4,7 +4,7 @@ Desc
 ## :camera_flash: Screenshots
 <!-- You can add more screenshots here if you like -->
 Screenshots
-<img src="/assets/Image1.png" width="200">&emsp;<img src="/assets/Image3.png" width="200">&emsp;<img src="/assets/Image2.png" width="200">
+<img src="/assets/image1.png" width="200">&emsp;<img src="/assets/image2.png" width="200">&emsp;<img src="/assets/image3.png" width="200">
 
 ## Tecnologias
 - TextView
