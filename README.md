@@ -1,5 +1,6 @@
 # Calculadora IMC
-Este projeto realiza o cálculo de gorjeta e mostra o resultado para o usúario. Foi criado com a linguagem Kotlin e possui uma tela visualização com dois botões operacionais.
+Este projeto realiza o cálculo de gorjeta e mostra o resultado para o usúario. 
+Foi criado com a linguagem Kotlin e possui uma tela visualização com dois botões operacionais.
 
 ## :camera_flash: Screenshots
 <!-- You can add more screenshots here if you like -->
