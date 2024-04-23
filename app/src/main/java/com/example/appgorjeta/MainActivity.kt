@@ -58,7 +58,7 @@ class MainActivity : AppCompatActivity() {
                 val intent = Intent(this, SummaryActivity::class.java)
                 intent.apply {
                     putExtra("totalTable", totalTable)
-                    putExtra("numPeople", nPeopleTemp)
+                    putExtra("numPeople", nPeople)
                     putExtra("percentage", percentage)
                     putExtra("totalAmount", totalWithTips)
 
