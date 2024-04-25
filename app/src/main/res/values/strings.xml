@@ -1,21 +1,19 @@
 <resources>
     <string name="app_name">AppGorjeta</string>
-    <string-array name="num_people">
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-        <item>8</item>
-        <item>9</item>
-        <item>10</item>
-        <item>11</item>
-        <item>12</item>
-        <item>13</item>
-        <item>14</item>
-        <item>15</item>
+    <string name="veja_abaixo_o_resumo_da_sua_conta">See bellow the summary of you bill</string>
+    <string name="summary">Summary</string>
+    <string name="total_table">Total table:</string>
+    <string name="n_mero_de_pessoas">Number of Peoples:</string>
+    <string name="porcentagem_de_gorjeta">Percentage of tips:</string>
+    <string name="total">TOTAL</string>
+    <string name="tips_calculator">Tips Calculator</string>
+    <string name="preencha_os_campos_abaixo_para_realizar_a_c_lculo_da_sua_conta">Fill in the fields below to calculate your account</string>
+    <string name="digite_o_valor_da_conta">Enter the bill amount</string>
+    <string name="digite_a_quantidade_de_pessoas">Enter the number of people</string>
+    <string name="digite_o_percentual_de_gorjeta">Enter the tip percentage</string>
+    <string name="refazer_o_c_lculo">Refresh</string>
+    <string name="limpar">Clean</string>
+    <string name="calcular">Calculator</string>
+    <string name="ex_r_250_00">$ 250.00</string>
 
-    </string-array>
 </resources>
